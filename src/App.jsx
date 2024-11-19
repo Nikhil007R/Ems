@@ -1,10 +1,16 @@
 import React from 'react'
+import Login from './components/Auth/Login'
+import EmpDashboard from './components/Dashboard/EmpDashboard'
+import Header from './components/Other/Header'
+import TaskNumbers from './components/Other/TaskNumbers'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      App
-    </h1>
+    <>
+      {/* <Login/> */}
+      <EmpDashboard / > 
+    
+    </>
   )
 }
 
