@@ -10,7 +10,7 @@ const EmpDashboard = ({data}) => {
   return (
     
     <div className='p-10 h-screen bg-[#1C1C1C]'>
-        <Header data={data}/>
+        <Header/>
         <TaskNumbers data={data}/>
         <TaskList data={data}/>
     </div>
