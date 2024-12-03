@@ -3,7 +3,7 @@ import React from "react";
 
 const CompleteTask = ({data}) => {
   return (
-    <div className="flex-shrink-0 h-full w-[300px] bg-green-400 rounded-xl p-5">
+    <div className="flex-shrink-0 h-full w-[300px] bg-zinc-400 rounded-xl p-5">
       <div className="flex justify-between items-center">
         <h2 className="bg-red-600 px-3 py-1 text-sm rounded">{data.category}</h2>
         <h3 className="">{data.taskDate}</h3>
